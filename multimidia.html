@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Google Glass</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+</head>
+
+<script src="script.js"></script>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img id="icone" src="minhas-imagens/multimidia2.png">
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="disk">
+                    <li onmouseover="mudaFoto('minhas-imagens/home3.png')"
+                        onmouseout="mudaFoto('minhas-imagens/multimidia2.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('minhas-imagens/especificações.png')"
+                        onmouseout="mudaFoto('minhas-imagens/multimidia2.png')"><a href="specs.html">Especificações</a>
+                    </li>
+                    <li onmouseover="mudaFoto('minhas-imagens/camera.png')"
+                        onmouseout="mudaFoto('minhas-imagens/multimidia2.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudaFoto('minhas-imagens/multimidia2.png')"
+                        onmouseout="mudaFoto('minhas-imagens/multimidia2.png')"><a href="multimidia.html">Multimídia</a>
+                    </li>
+                    <li onmouseover="mudaFoto('minhas-imagens/fale-conosco.png')"
+                        onmouseout="mudaFoto('minhas-imagens/multimidia2.png')"><a href="fale-conosco.html">Fale
+                            Conosco</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section id="corpo-full">
+            <article id="np">
+                <header id="c-a">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e vídeos</h1>
+                        <h2>Pelo Autor Everton Tamanini</h2>
+                        <h3 class="direita">Atualizado em 01/09/2025</h3>
+                    </hgroup>
+                </header>
+
+                <div id="tv-radio">
+                    <audio id="musica" controls>
+                        <source src="midia/bibio.mp3" type="audio/mpeg" />
+                        <source src="midia/bibio.mp3" type="audio/x-aac" />
+                        <source src="midia/bibio.mp3" type="audio/ogg" />
+                        Desculpe, mas não foi possível carregar o áudio.
+                    </audio>
+                    <video id="filme" controls poster="minhas-imagens/video-mini.jpg">
+                        <source src="midia/videoplayback.mp4" type="video/mp4">
+                        <source src="midia/videoplayback.mp4" type="video/webm">
+                        <source src="midia/videoplayback.mp4" type="video/ogg">
+                        Desculpe, mas não foi possível carregar o vídeo.
+                    </video>
+                </div>
+
+            </article>
+        </section>
+
+        <footer id="rodape">
+            <p>Copyright; 2025 - by Everton Tamanini<br />
+                <a href="https://www.facebook.com/GoogleGlassBrasil/" target="_blank">Facebook</a> | <a
+                    href="https://www.instagram.com/googleglass_official/" target="_blank">Instagram</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
